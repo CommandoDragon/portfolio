@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(150,10,10);
+}
+
+header {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: black;
+    height: 120px;
+    width: 100%;
+    
+}
+
+h1.header {
+    position: inherit;
+    left: 120px;
+    top: 10px;
+}
+
+ul.nav {
+    padding-top: 5px;
+    position: fixed;
+    left: 0%;
+    top: 100px;
+    display: block;
+    background-color: black;
+    width: 10%;
+    height: 90px;
+    
+}
+
+li.nav {
+    height: 30px;
+    display: block;
+    width: auto;
+    margin-left: -40px;
+    
+}
+
+li.nav:hover {
+    background-color: rgb(192,192,192);
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.nav {
+    text-align: center;
+    display: block;
+    height: 100%;
+    
+}
+
+a.nav:hover {
+    color: black;
+    
+}
+
+img.profile {
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+img.size640x760 {
+    width: 320px;
+    height: 380px;
+    
+}
+
+img.size800x600 {
+    width: 400px;
+    height: 300px;
+    
+}
+
+img.size1280x720 {
+    width: 640px;
+    height: 360px;
+    
+}
+
+div
+{
+    display: block;
+    
+}
+
+div.nav{
+    position: absolute;
+    left: 0%;
+    width: 10%;
+    height: 160px;
+    top: 100px;
+}
+
+div.main{
+    position: absolute;
+    left: 14%;
+    width: 80%;
+    height: 160px;
+    top: 110px;
+}
+
+h1, h2, h3, p, a, li {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(192,192,192);
+}
+
+p {
+    width: 30%;
+}
+
+p.contact {
+    text-align: center;
+    width: 100%;
+    
+}
